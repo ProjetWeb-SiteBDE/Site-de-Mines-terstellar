@@ -1,6 +1,16 @@
+## Site web de Mines'terstellar
+
+URL : https://projetweb-sitebde.github.io/Site-de-Mines-terstellar/
+
+Le site doit avoir les fonctionnalités suivantes : 
+	- Un menu pour se déplacer dans le site à travers différentes pages
+	- Au moins une liste
+	- Des pages de détail pour spécifier le contenu
+	- Un appel à une API (météo) / chargement asynchrone avec des flux JSON
+
 ## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/ProjetWeb-SiteBDE/Site-de-Mines-terstellar/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+ou can use the [editor on GitHub](https://github.com/ProjetWeb-SiteBDE/Site-de-Mines-terstellar/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
