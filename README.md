@@ -10,6 +10,11 @@ Le site doit avoir les fonctionnalités suivantes :
 
 ## Welcome to GitHub Pages
 
+<<<<<<< HEAD
+=======
+URL : https://projetweb-sitebde.github.io/Site-de-Mines-terstellar/
+
+>>>>>>> f9215119f5a59efc00517db54b2b93f08949f3e4
 ou can use the [editor on GitHub](https://github.com/ProjetWeb-SiteBDE/Site-de-Mines-terstellar/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
