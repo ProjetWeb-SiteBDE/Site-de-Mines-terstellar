@@ -6,7 +6,7 @@ var homeHtml = "html/home.html";
 var eventHtml = "html/events.html";
 var equipageHtml = "html/lequipage.html";
 var alloHtml = "html/allo.html";
-var bonusHtml = "html/allo.html";
+var bonusHtml = "html/bonus.html";
 var allCategoriesUrl =
   "https://davids-restaurant.herokuapp.com/categories.json";
 var categoriesTitleHtml = "snippets/categories-title-snippet.html";
