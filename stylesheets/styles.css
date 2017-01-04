@@ -8,7 +8,12 @@ body {
 	margin: 0px;
 	background-color: #1d396c;
 }
-
+.box:hover, #hometitle:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+#main-content{
+	text-align: center;
+}
 .box-container {
 	padding : 5px;
 	margin: 0px;
