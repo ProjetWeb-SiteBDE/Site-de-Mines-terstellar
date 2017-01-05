@@ -1,5 +1,33 @@
+!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="stylesheets/styles.css">
+  <title>Mines'terstellar</title>
+</head>
+<body>
 
-<div>
-  To be constructed
-   
-</div>
+
+<div id="main-content" class="container">
+  <h1>Soirée exté Mines'terstellar!</h1>
+  <h2>Lieu : Station Spatiale Internationale</h2>
+  <h2>Thème : Conquête spatiale!</h2>
+  <h2>Date : 03/03/3003</h2>
+  <h2>Horaire des navettes (spatiales!) : à déterminer</h2>
+  <h2>Météo : 
+	<div style="width:510px;color:#000;border:1px solid #F2F2F2;" class="container" id="main-content">
+	<iframe height="85" frameborder="0" width="510" scrolling="no" src="http://www.prevision-meteo.ch/services/html/saint-Etienne-42/horizontal?bg=ff0000&txtcol=ffffff&tmpmin=fff000&tmpmax=378ADF" allowtransparency="true"></iframe>
+	<a style="text-decoration:none;font-size:0.75em;" title="Prévisions complètes pour Saint-Étienne (42)" href="http://www.prevision-meteo.ch/meteo/localite/saint-Etienne-42">Prévisions complètes pour Saint-Étienne (42)</a>
+	</div>
+  </h2>
+  <?php
+  $content = file_get_contents('
+  http://www.prevision-meteo.ch/services/json/saint-Etienne-42');
+  
+  $json = json_decode($content);
+	
+	?>
+	<?php echo "<h2>"Coucou"</h2>"; ?>
+ </div>
+</body>
+</html>
