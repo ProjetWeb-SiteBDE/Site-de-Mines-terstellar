@@ -8,7 +8,10 @@ body {
 	margin: 0px;
 	background-color: #1d396c;
 }
-.box:hover, #hometitle:hover {
+#hometitle:hover{
+	
+}
+.box:hover {
   box-shadow: 0 1px 5px 1px #cccccc;
 }
 #main-content{
@@ -35,6 +38,25 @@ a:link {
 
 a:visited {
 	color: white;
+}
+
+.item-container {
+	padding: 10px;
+	display: inline-block;
+}
+
+.item {
+	display: inline-block;
+	padding: 5px;
+}
+
+.item:hover {
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+h1 {
+	color: white;
+	font-size: 25px;
 }
 
 

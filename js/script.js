@@ -7,14 +7,6 @@ var eventHtml = "html/events.html";
 var equipageHtml = "html/lequipage.html";
 var alloHtml = "html/allo.html";
 var bonusHtml = "html/bonus.html";
-var allCategoriesUrl =
-  "https://davids-restaurant.herokuapp.com/categories.json";
-var categoriesTitleHtml = "snippets/categories-title-snippet.html";
-var categoryHtml = "snippets/category-snippet.html";
-var menuItemsUrl =
-  "https://davids-restaurant.herokuapp.com/menu_items.json?category=";
-var menuItemsTitleHtml = "snippets/menu-items-title.html";
-var menuItemHtml = "snippets/menu-item.html";
 
 // Convenience function for inserting innerHTML for 'select'
 var insertHtml = function (selector, html) {
@@ -103,7 +95,16 @@ dc.loadBonus = function () {
   },
   false);
 };
-
+dc.loadEventItems = function (event) {
+  showLoading("#main-content");
+  $ajaxUtils.sendGetRequest(
+    "html/"+event+".html",
+    function (responseText) {
+    document.querySelector("#main-content")
+      .innerHTML = responseText;
+    },
+    false);
+};
 
 
 global.$dc = dc;
