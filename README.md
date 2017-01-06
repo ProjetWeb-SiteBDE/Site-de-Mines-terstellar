@@ -4,9 +4,9 @@ URL : https://projetweb-sitebde.github.io/Site-de-Mines-terstellar/
 
 Le site doit avoir les fonctionnalités suivantes : 
 	- Un menu pour se déplacer dans le site à travers différentes pages
-	- Au moins une liste
+	- Au moins une liste （Evenement）	
 	- Des pages de détail pour spécifier le contenu
-	- Un appel à une API (météo) / chargement asynchrone avec des flux JSON
+	- （dans l'evenement Soiree1）Un appel à une API (météo) / chargement asynchrone avec des flux JSON
 
 ## Welcome to GitHub Pages
 
